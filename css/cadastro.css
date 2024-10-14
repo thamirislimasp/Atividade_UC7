@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --fontBaloo: 'Baloo', sans-serif;
+    --fontInter: 'Montserrat', sans-serif;
+}
+
+
+body, html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cadastro-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto !important;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.container-cadastro {    
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-cadastro h1 {
+    font-family: var(--fontBaloo);
+    text-align: center;
+    color: #920887;
+    margin: 15px;
+} 
+
+.form-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* font-family: var(--fontInter); */
+}
+
+/* .cadastro {
+    width: 100%;
+} */
+
+.ajustes-form label {
+    font-family: var(--fontInter);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: var(--fontInter);
+    color: #7F7F7F;
+}
+
+.ajustes-form input {
+    margin: 5px 0;
+    padding: 7px 2px;
+    border: 1px solid #8D8D8D; 
+    border-radius: 5px;   
+    width: 100%;
+}
+
+.btn-cadastro div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#btn-cadastro {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #df30b9;
+    cursor: pointer;
+    color: white;
+    font-family: var(--fontInter);
+    border: none;
+}
+
+#btn-cadastro-pet:hover {
+    background-color: white;
+    color: #01A58D;
+    border: 1px solid #01A58D;
+}
+
+#btn-cadastro-voltar {    
+    font-family: var(--fontInter);
+    color: #920887;
+}
